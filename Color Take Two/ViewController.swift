@@ -21,6 +21,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     @IBOutlet weak var tableView: UITableView!
     
+    var selectedColor : UIColor?
+    
     let colors : [UIColor] = [UIColor.redColor(), UIColor.blueColor(), UIColor.greenColor(), UIColor.purpleColor(), UIColor(red: 255/255, green: 0/255, blue: 128/255, alpha: 1.0), UIColor.blackColor()]
     
     override func didReceiveMemoryWarning() {
@@ -37,6 +39,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.backgroundColor = self.colors[indexPath.row]
         return cell
     }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.selectedColor = self.colors[indexPath.row]
+        self.performSegueWithIdentifier("toColorScreen", sender: self)
+    }
 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "toColorScreen" {
+            segue.destinationViewController.view.backgroundColor = self.selectedColor
+        }
+    }
 }
 
