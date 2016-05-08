@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33EFB2D1CDEC4D2008BA999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EFB2C1CDEC4D2008BA999 /* AppDelegate.swift */; };
+		C33EFB2F1CDEC4D2008BA999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EFB2E1CDEC4D2008BA999 /* ViewController.swift */; };
+		C33EFB321CDEC4D2008BA999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33EFB301CDEC4D2008BA999 /* Main.storyboard */; };
+		C33EFB341CDEC4D2008BA999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33EFB331CDEC4D2008BA999 /* Assets.xcassets */; };
+		C33EFB371CDEC4D2008BA999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33EFB351CDEC4D2008BA999 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C33EFB291CDEC4D2008BA999 /* Color Take Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Take Two.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33EFB2C1CDEC4D2008BA999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C33EFB2E1CDEC4D2008BA999 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C33EFB311CDEC4D2008BA999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C33EFB331CDEC4D2008BA999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C33EFB361CDEC4D2008BA999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C33EFB381CDEC4D2008BA999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33EFB261CDEC4D2008BA999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33EFB201CDEC4D2008BA999 = {
+			isa = PBXGroup;
+			children = (
+				C33EFB2B1CDEC4D2008BA999 /* Color Take Two */,
+				C33EFB2A1CDEC4D2008BA999 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33EFB2A1CDEC4D2008BA999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33EFB291CDEC4D2008BA999 /* Color Take Two.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33EFB2B1CDEC4D2008BA999 /* Color Take Two */ = {
+			isa = PBXGroup;
+			children = (
+				C33EFB2C1CDEC4D2008BA999 /* AppDelegate.swift */,
+				C33EFB2E1CDEC4D2008BA999 /* ViewController.swift */,
+				C33EFB301CDEC4D2008BA999 /* Main.storyboard */,
+				C33EFB331CDEC4D2008BA999 /* Assets.xcassets */,
+				C33EFB351CDEC4D2008BA999 /* LaunchScreen.storyboard */,
+				C33EFB381CDEC4D2008BA999 /* Info.plist */,
+			);
+			path = "Color Take Two";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33EFB281CDEC4D2008BA999 /* Color Take Two */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33EFB3B1CDEC4D2008BA999 /* Build configuration list for PBXNativeTarget "Color Take Two" */;
+			buildPhases = (
+				C33EFB251CDEC4D2008BA999 /* Sources */,
+				C33EFB261CDEC4D2008BA999 /* Frameworks */,
+				C33EFB271CDEC4D2008BA999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Take Two";
+			productName = "Color Take Two";
+			productReference = C33EFB291CDEC4D2008BA999 /* Color Take Two.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33EFB211CDEC4D2008BA999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Carla Hennes";
+				TargetAttributes = {
+					C33EFB281CDEC4D2008BA999 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = N4B86R8842;
+					};
+				};
+			};
+			buildConfigurationList = C33EFB241CDEC4D2008BA999 /* Build configuration list for PBXProject "Color Take Two" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C33EFB201CDEC4D2008BA999;
+			productRefGroup = C33EFB2A1CDEC4D2008BA999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33EFB281CDEC4D2008BA999 /* Color Take Two */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33EFB271CDEC4D2008BA999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33EFB371CDEC4D2008BA999 /* LaunchScreen.storyboard in Resources */,
+				C33EFB341CDEC4D2008BA999 /* Assets.xcassets in Resources */,
+				C33EFB321CDEC4D2008BA999 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33EFB251CDEC4D2008BA999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33EFB2F1CDEC4D2008BA999 /* ViewController.swift in Sources */,
+				C33EFB2D1CDEC4D2008BA999 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C33EFB301CDEC4D2008BA999 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33EFB311CDEC4D2008BA999 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C33EFB351CDEC4D2008BA999 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33EFB361CDEC4D2008BA999 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C33EFB391CDEC4D2008BA999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C33EFB3A1CDEC4D2008BA999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C33EFB3C1CDEC4D2008BA999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Color Take Two/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CarlaHennes.Color-Take-Two";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C33EFB3D1CDEC4D2008BA999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Color Take Two/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CarlaHennes.Color-Take-Two";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33EFB241CDEC4D2008BA999 /* Build configuration list for PBXProject "Color Take Two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33EFB391CDEC4D2008BA999 /* Debug */,
+				C33EFB3A1CDEC4D2008BA999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33EFB3B1CDEC4D2008BA999 /* Build configuration list for PBXNativeTarget "Color Take Two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33EFB3C1CDEC4D2008BA999 /* Debug */,
+				C33EFB3D1CDEC4D2008BA999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33EFB211CDEC4D2008BA999 /* Project object */;
+}
