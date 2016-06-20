@@ -67,10 +67,10 @@
             </objects>
             <point key="canvasLocation" x="-316" y="257"/>
         </scene>
-        <!--View Controller-->
+        <!--Color View Controller-->
         <scene sceneID="Mwn-Hc-ZET">
             <objects>
-                <viewController id="8RV-js-Lgf" sceneMemberID="viewController">
+                <viewController id="8RV-js-Lgf" customClass="ColorViewController" customModule="Color_Take_Two" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HRF-b9-WME"/>
                         <viewControllerLayoutGuide type="bottom" id="UDl-fy-tJG"/>
@@ -78,8 +78,25 @@
                     <view key="view" contentMode="scaleToFill" id="s2k-wH-ncu">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCK-TZ-Pno">
+                                <rect key="frame" x="10" y="240" width="580" height="119"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OCK-TZ-Pno" firstAttribute="centerX" secondItem="s2k-wH-ncu" secondAttribute="centerX" id="9Ga-7o-DK2"/>
+                            <constraint firstAttribute="trailing" secondItem="OCK-TZ-Pno" secondAttribute="trailing" constant="10" id="BII-xa-2Sg"/>
+                            <constraint firstItem="OCK-TZ-Pno" firstAttribute="centerY" secondItem="s2k-wH-ncu" secondAttribute="centerY" id="hG3-Bk-N0I"/>
+                            <constraint firstItem="OCK-TZ-Pno" firstAttribute="leading" secondItem="s2k-wH-ncu" secondAttribute="leading" constant="10" id="jTw-Kl-s4k"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="colorLabel" destination="OCK-TZ-Pno" id="Bwc-Iz-dE9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DSy-SV-PD4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
