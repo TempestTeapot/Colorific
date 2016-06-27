@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		614B4F611D178AEF00EF0304 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B4F601D178AEF00EF0304 /* ColorViewController.swift */; };
 		C33EFB2D1CDEC4D2008BA999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EFB2C1CDEC4D2008BA999 /* AppDelegate.swift */; };
 		C33EFB2F1CDEC4D2008BA999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EFB2E1CDEC4D2008BA999 /* ViewController.swift */; };
 		C33EFB321CDEC4D2008BA999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33EFB301CDEC4D2008BA999 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		614B4F601D178AEF00EF0304 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		C33EFB291CDEC4D2008BA999 /* Color Take Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Take Two.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33EFB2C1CDEC4D2008BA999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C33EFB2E1CDEC4D2008BA999 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				C33EFB2C1CDEC4D2008BA999 /* AppDelegate.swift */,
 				C33EFB2E1CDEC4D2008BA999 /* ViewController.swift */,
+				614B4F601D178AEF00EF0304 /* ColorViewController.swift */,
 				C33EFB301CDEC4D2008BA999 /* Main.storyboard */,
 				C33EFB331CDEC4D2008BA999 /* Assets.xcassets */,
 				C33EFB351CDEC4D2008BA999 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C33EFB2F1CDEC4D2008BA999 /* ViewController.swift in Sources */,
+				614B4F611D178AEF00EF0304 /* ColorViewController.swift in Sources */,
 				C33EFB2D1CDEC4D2008BA999 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				C33EFB3D1CDEC4D2008BA999 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
